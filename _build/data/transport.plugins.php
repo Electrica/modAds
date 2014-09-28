@@ -3,8 +3,8 @@
 $plugins = array();
 
 $tmp = array(/*
-	'modExtra' => array(
-		'file' => 'modextra',
+	'modAds' => array(
+		'file' => 'modads',
 		'description' => '',
 		'events' => array(
 			'OnManagerPageInit' => array()
