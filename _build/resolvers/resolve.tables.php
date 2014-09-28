@@ -11,7 +11,8 @@ if ($object->xpdo) {
 
 			$manager = $modx->getManager();
 			$objects = array(
-				'modAdsItem',
+				'modAdsEmployer',
+                'modAdsApplicants'
 			);
 			foreach ($objects as $tmp) {
 				$manager->createObjectContainer($tmp);
