@@ -31,8 +31,9 @@ class modAdsHomeManagerController extends modAdsMainController {
 		$this->addCss($this->modAds->config['cssUrl'] . 'mgr/main.css');
 		$this->addCss($this->modAds->config['cssUrl'] . 'mgr/bootstrap.buttons.css');
 		$this->addJavascript($this->modAds->config['jsUrl'] . 'mgr/misc/utils.js');
-		$this->addJavascript($this->modAds->config['jsUrl'] . 'mgr/widgets/items.grid.js');
-		$this->addJavascript($this->modAds->config['jsUrl'] . 'mgr/widgets/items.windows.js');
+		$this->addJavascript($this->modAds->config['jsUrl'] . 'mgr/widgets/employer.grid.js');
+        $this->addJavascript($this->modAds->config['jsUrl'] . 'mgr/widgets/applicants.grid.js');
+		$this->addJavascript($this->modAds->config['jsUrl'] . 'mgr/widgets/employer.windows.js');
 		$this->addJavascript($this->modAds->config['jsUrl'] . 'mgr/widgets/home.panel.js');
 		$this->addJavascript($this->modAds->config['jsUrl'] . 'mgr/sections/home.js');
 		$this->addHtml('<script type="text/javascript">

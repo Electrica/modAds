@@ -20,16 +20,26 @@ modAds.panel.Home = function (config) {
 			border: true,
 			hideMode: 'offsets',
 			items: [{
-				title: _('modads_items'),
+				title: _('modads_employer'),
 				layout: 'anchor',
 				items: [{
-					html: _('modads_intro_msg'),
-					cls: 'panel-desc',
+					html: _('modads_employer_intro_msg'),
+					cls: 'panel-desc'
 				}, {
-					xtype: 'modads-grid-items',
-					cls: 'main-wrapper',
+					xtype: 'modads-grid-employer',
+					cls: 'main-wrapper'
 				}]
-			}]
+            },{
+                title: _('modads_applicants'),
+                layout: 'anchor',
+                items: [{
+                    html: _('modads_applicants_intro_msg'),
+                    cls: 'panel-desc'
+                },{
+                    xtype: 'modads-grid-applicants',
+                    cls: 'main-wrapper'
+                }]
+            }]
 		}]
 	});
 	modAds.panel.Home.superclass.constructor.call(this, config);

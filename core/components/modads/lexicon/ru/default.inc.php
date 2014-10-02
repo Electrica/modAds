@@ -2,7 +2,7 @@
 include_once 'setting.inc.php';
 
 $_lang['modads'] = 'modAds';
-$_lang['modads_menu_desc'] = 'Пример расширения для разработки.';
+$_lang['modads_menu_desc'] = 'Компонент для работы с работодателями и соискателями';
 $_lang['modads_intro_msg'] = 'Вы можете выделять сразу несколько предметов при помощи Shift или Ctrl.';
 
 $_lang['modads_items'] = 'Предметы';
